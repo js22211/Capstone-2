@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-05T14:49:40.774035Z",
+  "baseline": "/workspace/artifacts/eval/Capstone/baseline_k50_flat/mga_baseline.parquet",
+  "output_parquet": "/workspace/artifacts/eval/Capstone/rerank_stepa2_yesno/reranked.parquet",
+  "output_jsonl": "/workspace/artifacts/eval/Capstone/rerank_stepa2_yesno/reranked.jsonl",
+  "audio_root": "/workspace/datasets/cloto_audio_evaluation",
+  "step_model": "Step-Audio-2-mini",
+  "device": "cuda",
+  "system_prompt": "You are an expert audio analyst. Describe the audio accurately.",
+  "user_prompt": "Provide a detailed caption for this audio clip.",
+  "fusion_lambda": 0.5,
+  "norm": "zscore",
+  "skip_combine": false,
+  "topk": null,
+  "num_pairs": 52250,
+  "score_mode": "yesno",
+  "yesno_question_template": "Does the audio match this description?\\n{query}\\nAnswer 'Yes' or 'No' only.",
+  "yesno_positive": "Yes",
+  "yesno_negative": "No"
+}

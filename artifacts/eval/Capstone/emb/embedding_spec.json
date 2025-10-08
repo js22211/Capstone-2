@@ -1,0 +1,15 @@
+{
+  "model": "MGA-CLAP/pretrained/model.pt",
+  "config": "MGA-CLAP/settings/inference_example.yaml",
+  "device": "cuda",
+  "target_sample_rate": 32000,
+  "max_audio_length_samples": 320000,
+  "max_audio_length_seconds": 10.0,
+  "embedding_dim": 1024,
+  "pooling": "msc",
+  "normalize": true,
+  "save_dtype": "float32",
+  "num_items": 1045,
+  "audio_column": "audio_path",
+  "id_column": "file_name"
+}

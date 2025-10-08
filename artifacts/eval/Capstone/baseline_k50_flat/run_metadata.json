@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-10-05T08:21:33.151194Z",
+  "config": "MGA-CLAP/settings/inference_example.yaml",
+  "checkpoint": "MGA-CLAP/pretrained/model.pt",
+  "index": "artifacts/eval/index_flat/flat.index",
+  "index_meta": "artifacts/eval/index_flat/flat.json",
+  "embeddings": "artifacts/eval/emb/audio_embeddings.npz",
+  "mapping": "artifacts/eval/index_flat/mapping.tsv",
+  "topk": 50,
+  "normalize_queries": true,
+  "device": "cuda",
+  "num_queries": 1045,
+  "faiss_use_gpu": false,
+  "nprobe": null,
+  "efSearch": null,
+  "metric": "ip"
+}

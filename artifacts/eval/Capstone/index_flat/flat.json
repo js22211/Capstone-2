@@ -1,0 +1,10 @@
+{
+  "embeddings": "artifacts/eval/emb/audio_embeddings.npz",
+  "embedding_key": "clip_embeddings",
+  "index_type": "flat",
+  "metric": "ip",
+  "normalize": true,
+  "num_items": 1045,
+  "dim": 1024,
+  "faiss_version": "1.8.0"
+}

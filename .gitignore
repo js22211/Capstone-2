@@ -1,0 +1,4 @@
+MGA-CLAP/.tmp/
+MGA-CLAP/.cache/
+MGA-CLAP/**/__pycache__/
+MGA-CLAP/**/*.pyc

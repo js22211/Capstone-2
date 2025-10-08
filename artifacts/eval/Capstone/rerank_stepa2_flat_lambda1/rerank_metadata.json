@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-05T09:12:18.223874Z",
+  "baseline": "artifacts/eval/baseline_k50_flat/mga_baseline.parquet",
+  "output_parquet": "artifacts/eval/rerank_stepa2_flat_lambda1/reranked.parquet",
+  "output_jsonl": "artifacts/eval/rerank_stepa2_flat_lambda1/reranked.jsonl",
+  "audio_root": "/workspace/datasets/cloto_audio_evaluation/evaluation",
+  "step_model": "/workspace/Step-Audio2/Step-Audio-2-mini",
+  "device": "cuda",
+  "system_prompt": "You are an expert audio analyst. Describe the audio accurately.",
+  "user_prompt": "Provide a detailed caption for this audio clip.",
+  "fusion_lambda": 1.0,
+  "norm": "zscore",
+  "skip_combine": false,
+  "topk": 50,
+  "num_pairs": 52250
+}

@@ -1,0 +1,15 @@
+{
+  "baseline": "/workspace/artifacts/eval/Capstone/baseline_k50_flat/mga_baseline.parquet",
+  "output_parquet": "/workspace/artifacts/eval/Capstone/rerank_af3_flat/reranked.parquet",
+  "output_jsonl": "/workspace/artifacts/eval/Capstone/rerank_af3_flat/reranked.jsonl",
+  "audio_root": "/workspace/datasets/cloto_audio_evaluation/evaluation",
+  "af3_model": "/workspace/audio-flamingo-3",
+  "device": "cuda",
+  "system_prompt": "You are an expert audio analyst. Describe the audio accurately.",
+  "user_prompt": "Provide a detailed caption for this audio clip.",
+  "fusion_lambda": 1.0,
+  "norm": "zscore",
+  "skip_combine": false,
+  "topk": 50,
+  "num_pairs": 52250
+}

@@ -1,0 +1,81 @@
+{
+  "results_path": "artifacts/eval/Capstone/rerank_stepa2_yesno/reranked.jsonl",
+  "ground_truth": "artifacts/eval/Capstone/gt.json",
+  "k": [
+    1,
+    5,
+    10
+  ],
+  "map_k": 10,
+  "ndcg_k": 10,
+  "baseline_metrics": {
+    "R@1": 19.521531100478466,
+    "R@5": 45.83732057416268,
+    "R@10": 59.33014354066985,
+    "MedianRank": 7.0,
+    "MeanRank": 15.64688995215311,
+    "MRR": 0.32482605979181833,
+    "mAP@10": 0.311714133819397,
+    "nDCG@10": 0.3785249059742891
+  },
+  "reranked_metrics": {
+    "R@1": 21.339712918660286,
+    "R@5": 47.942583732057415,
+    "R@10": 60.66985645933014,
+    "MedianRank": 6.0,
+    "MeanRank": 14.884210526315789,
+    "MRR": 0.3442383847726954,
+    "mAP@10": 0.33090833143464726,
+    "nDCG@10": 0.39649701655280406
+  },
+  "comparison": {
+    "R@1": {
+      "baseline": 19.521531100478466,
+      "reranked": 21.339712918660286,
+      "absolute": 1.8181818181818201,
+      "relative_percent": 9.31372549019609
+    },
+    "R@5": {
+      "baseline": 45.83732057416268,
+      "reranked": 47.942583732057415,
+      "absolute": 2.1052631578947327,
+      "relative_percent": 4.592901878914396
+    },
+    "R@10": {
+      "baseline": 59.33014354066985,
+      "reranked": 60.66985645933014,
+      "absolute": 1.3397129186602896,
+      "relative_percent": 2.2580645161290365
+    },
+    "MedianRank": {
+      "baseline": 7.0,
+      "reranked": 6.0,
+      "absolute": -1.0,
+      "relative_percent": -14.285714285714285
+    },
+    "MeanRank": {
+      "baseline": 15.64688995215311,
+      "reranked": 14.884210526315789,
+      "absolute": -0.7626794258373213,
+      "relative_percent": -4.874319613479303
+    },
+    "MRR": {
+      "baseline": 0.32482605979181833,
+      "reranked": 0.3442383847726954,
+      "absolute": 0.019412324980877083,
+      "relative_percent": 5.976221548640057
+    },
+    "mAP@10": {
+      "baseline": 0.311714133819397,
+      "reranked": 0.33090833143464726,
+      "absolute": 0.019194197615250264,
+      "relative_percent": 6.157628266664073
+    },
+    "nDCG@10": {
+      "baseline": 0.3785249059742891,
+      "reranked": 0.39649701655280406,
+      "absolute": 0.017972110578514944,
+      "relative_percent": 4.747933437102731
+    }
+  }
+}
